@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RestaurantDetails /> should render correctly according to props 1`] = `
+"<div class=\\"restaurant-details\\">
+  <div class=\\"heading\\">
+    <h2><a href=\\"https://www.yelp.com/biz/billy-the-butcher-hamburg-2?adjust_creative=nMAD8ywU1QBl_RMSM215Bg&amp;utm_campaign=yelp_api_v3&amp;utm_medium=api_v3_graphql&amp;utm_source=nMAD8ywU1QBl_RMSM215Bg\\" title=\\"Billy The Butcher\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">Billy The Butcher</a></h2>
+    <div><span class=\\"rating\\">Rating: </span><span>4</span>
+    </div><address class=\\"full-address\\">Jungfernstieg 16 - 20
+4. OG
+20354 Hamburg
+Germany</address><a href=\\"tel:+494057283299\\" class=\\"telephone\\">+49 40 57283299</a>
+  </div>
+  <div class=\\"photo\\">
+    <img src=\\"https://s3-media2.fl.yelpcdn.com/bphoto/RDKmsxZZczP4EiTCB9AYOw/o.jpg\\"
+    alt=\\"Billy The Butcher\\">
+  </div>
+  <div class=\\"reviews\\">
+    <h3>Reviews</h3>
+    <ul>
+      <li>
+        <div><span class=\\"rating\\">Rating: </span><span>4</span>
+        </div>
+        <p>I've had decent lunches at Billy The Butcher a couple of times now. It's
+          what I would describe as a trendy burger joint on the 4th floor of the
+          Alsterhaus...</p>
+      </li>
+      <li>
+        <div><span class=\\"rating\\">Rating: </span><span>4</span>
+        </div>
+        <p>We arrived Hamburg at noon and decide to get some burgers before going
+          to the office. This place is pretty close to the city hall and rated well.
+          I ordered...</p>
+      </li>
+      <li>
+        <div><span class=\\"rating\\">Rating: </span><span>4</span>
+        </div>
+        <p>Nice place to have good burger for lunch. Most of personnel speak English
+          which is good. Prices are decent, also I would recommend to share fries
+          with a...</p>
+      </li>
+    </ul>
+  </div>
+</div>"
+`;

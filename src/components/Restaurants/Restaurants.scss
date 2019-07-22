@@ -1,0 +1,121 @@
+.restaurants {
+  display: flex;
+  width: 100%;
+  text-align: left;
+  padding-top: 84px;
+
+  /** restaurant list style **/
+  .restaurants-list {
+    position: fixed;
+    border-right: 1px solid var(--grey);
+    flex-grow: 1;
+    width: 300px;
+
+    .total-result {
+      margin: 0;
+      padding: 15px 30px;
+      background: var(--grey-light);
+    }
+
+    ul {
+      list-style: none;
+      text-align: left;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      overflow: auto;
+    }
+
+    .restaurants-list-item {
+      border-bottom: 1px solid var(--grey-light);
+      padding: 10px 40px;
+      cursor: pointer;
+
+      h3 {
+        padding-bottom: 3px;
+        margin: 0;
+      }
+
+      .address {
+        font-style: normal;
+        font-size: 16px;
+
+        &::before {
+          content: '';
+          background: url(../../icons/marker.svg) no-repeat 50% 1px;
+          background-size: 100% auto;
+          width: 18px;
+          height: 18px;
+          display: inline-block;
+        }
+      }
+
+      &.selected {
+        background: var(--blue);
+      }
+    }
+  }
+
+  /** restaurant details **/
+  .restaurant-details {
+    padding: 20px 50px;
+    margin-left: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 3;
+
+    .heading {
+      flex-grow: 3;
+
+      h2 {
+        text-decoration: underline;
+      }
+
+      a {
+        color: #272d36;
+        text-decoration: none;
+      }
+
+      .full-address {
+        padding: 15px 0;
+        font-style: normal;
+
+        &::before {
+          content: '';
+          background: url(../../icons/marker.svg) no-repeat 50% 1px;
+          background-size: 100% auto;
+          width: 21px;
+          height: 21px;
+          display: inline-block;
+        }
+      }
+
+      .telephone {
+        &::before {
+          content: '';
+          background: url(../../icons/phone.svg) no-repeat 50% 1px;
+          background-size: 100% auto;
+          width: 21px;
+          height: 21px;
+          display: inline-block;
+        }
+      }
+    }
+
+    .photo {
+      flex-grow: 1;
+      max-width: 250px;
+
+      img {
+        width: 100%;
+      }
+    }
+    .reviews {
+      flex-grow: 4;
+    }
+
+    .rating {
+      font-weight: bold;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+:root {
+  --grey-dark: #282c34;
+  --grey: grey;
+  --grey-light: lightgrey;
+  --blue: #61dafb;
+}
+
+body {
+  color: var(--grey-dark);
+  font-family: Helvetica Neue, sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  padding: 1rem;
+}

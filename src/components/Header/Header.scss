@@ -1,0 +1,14 @@
+.header {
+  background: var(--grey-dark);
+  padding: 10px;
+  color: var(--grey-light);
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+.header h1.heading {
+  margin: 0;
+  padding: 10px 16px;
+}

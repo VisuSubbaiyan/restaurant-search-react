@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RestaurantsList /> should render correctly according to props 1`] = `
+"<div class=\\"restaurants-list\\">
+  <h3 class=\\"total-result\\">34 Restaurants</h3>
+  <ul>
+    <li class=\\"restaurants-list-item selected\\">
+      <h3 class=\\"name\\">Billy The Butcher</h3><address class=\\"address\\">Jungfernstieg 16 - 20, Hamburg</address>
+    </li>
+  </ul>
+</div>"
+`;
